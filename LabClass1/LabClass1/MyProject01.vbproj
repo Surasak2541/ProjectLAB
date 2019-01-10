@@ -72,17 +72,53 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="frmLAB1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="frmLAB1.Designer.vb">
+      <DependentUpon>frmLAB1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="frmLAB2.Designer.vb">
+      <DependentUpon>frmLAB2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="frmLAB2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLAB3.Designer.vb">
+      <DependentUpon>frmLAB3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLAB3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLAB4.Designer.vb">
+      <DependentUpon>frmLAB4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLAB4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLAB5.Designer.vb">
+      <DependentUpon>frmLAB5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLAB5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLAB6.Designer.vb">
+      <DependentUpon>frmLAB6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLAB6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLAB7.Designer.vb">
+      <DependentUpon>frmLAB7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLAB7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLAB8.Designer.vb">
+      <DependentUpon>frmLAB8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLAB8.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,19 +136,46 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="MyMain.Designer.vb">
+      <DependentUpon>MyMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="frmLAB1.resx">
+      <DependentUpon>frmLAB1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="frmLAB2.resx">
+      <DependentUpon>frmLAB2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLAB3.resx">
+      <DependentUpon>frmLAB3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLAB4.resx">
+      <DependentUpon>frmLAB4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLAB5.resx">
+      <DependentUpon>frmLAB5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLAB6.resx">
+      <DependentUpon>frmLAB6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLAB7.resx">
+      <DependentUpon>frmLAB7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLAB8.resx">
+      <DependentUpon>frmLAB8.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyMain.resx">
+      <DependentUpon>MyMain.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +189,30 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Open_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Android_OS_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Services_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Favorite_Folder_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Restaurant_Menu_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Sleep_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Insert_White_Space_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Add_White_Space_48px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

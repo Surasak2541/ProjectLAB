@@ -22,5 +22,45 @@ LabClass1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Add_White_Space_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Android_OS_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Favorite_Folder_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Insert_White_Space_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Open_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Restaurant_Menu_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Services_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LabClass1.My.Resources.Resources.icons8_Sleep_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
